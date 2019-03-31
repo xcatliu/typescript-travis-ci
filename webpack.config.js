@@ -12,7 +12,6 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.jsx']
     },
     devtool: 'source-map',
-    watch: true,
     module: {
         rules: [{
             test: /\.tsx?$/,
@@ -23,8 +22,4 @@ module.exports = {
         new CheckerPlugin()
     ]
 };
-
-
-
-
 

@@ -21,8 +21,8 @@
     "webpack-cli": "^3.1.0"
   },
   "scripts": {
-    "start": "webpack",
-    "build": "tsc",
+    "start": "webpack --watch",
+    "build": "webpack",
     "eslint": "eslint src --ext .ts",
     "eslint:fix": "eslint src --ext .ts --fix",
     "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha"
