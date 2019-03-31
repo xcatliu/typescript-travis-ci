@@ -1,0 +1,32 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "学习 TypeScript",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.12.2",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
+    "awesome-typescript-loader": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-alloy": "^2.0.0-alpha.2",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "start": "webpack",
+    "build": "tsc",
+    "eslint": "eslint src --ext .ts",
+    "eslint:fix": "eslint src --ext .ts --fix",
+    "test": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha"
+  },
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT"
+}

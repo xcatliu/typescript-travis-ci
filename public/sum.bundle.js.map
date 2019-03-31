@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/sum.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAc,aAAc,CAAS,EAAE,CAAS;IAC5C,OAAO,CAAC,GAAG,CAAC,CAAC;AACjB,CAAC","file":"sum.bundle.js","sourcesContent":["export default function sum(x: number, y: number) {\n    return x + y;\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"],"sourceRoot":""}

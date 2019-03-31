@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es5",
+        // 生成 sourcemap 文件
+        "sourceMap": true,
+        // 严格模式
+        // "strict": true,
+        "outDir": "./public",
+        "lib": [
+            "dom",
+            "es2018"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
+
+
+
+
+
+
