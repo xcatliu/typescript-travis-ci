@@ -1,5 +1,3 @@
 # mocha.opts
   --require ts-node/register
-  --watch
-  --watch-extensions ts
   test/sum.test.ts
